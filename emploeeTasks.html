@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+			<script type="text/javascript"src="emp.js"></script>
+
+		<style>
+		#time{color:yellow; border:solid white;border-width:100%; padding-left:50%;padding-right:50%; }
+	</style>
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="employeeTask.css">
+	<title>Employee Daily Task List</title>
+	<title>Employee Task</title>
+	<link rel="stylesheet" href="emp.css">
+
+</head>
+<body>
+<!-- <div class = "morning">
+MORNING
+</div>
+
+<div class = "afternooon">
+AFTERNOON
+</div>
+
+
+<div class="container">
+	<div class="col-6"><h1>MORNING</h1>
+		<div class="col-6">
+			<h1>Afternoon</h1></div>
+		</div> -->
+
+<div id = "backdrop">
+		
+	<div class="row">
+	<!-- <div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote"> onclick="addNote""Add Note</button><span class="adoptionsF">Adoptions</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button id = "addNote"> onclick="addNote""Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote"> onclick="addNote""Add Note</button><span class="adoptionsF">ADOPTIONS</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button id = "addNote"> onclick="addNote""Add User</button><input type="text" placeholder="Add Notes" name=""><button>Add Note</button><span class="adoptionsF">HOLDINGS</span></div>
+	<div class="col-3 Adoptions"><input type="" name=""><button>Add user</button><input type="text" placeholder="Add Notes" name=""><button>Add Note</button><span class="adoptionsF">HOLDINGS</span></div>
+	<div class="col-3 Adoptions"><input type="" name=""><button>Add user</button><input type="text" placeholder="Add Notes" name=""><button>Add Note</button><span class="adoptionsF">CONTAGIOUS</span></div>
+	<div class="col-3 Adoptions"><input type="" name=""><button>Add user</button><input type="text" placeholder="Add Notes" name=""><button>Add Note</button><span class="adoptionsF">ANNEX</span></div>
+	<div class="col-3 Adoptions"><input type="" name=""><button>Add user</button><input type="text" placeholder="Add Notes" name=""><button>Add Note</button><span class="adoptionsF">ADOPTIONS</span></div> --><h3 id ="time">
+		AM
+	</h3>
+	<div class="col-3 Adoptions"><input id="input00"  type="text" name=""><button onclick="myFunc()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput1"  type="text" placeholder="Add Notes" name=""><button id = "addNote1" onclick="addNote1()">Add Note</button><h2 id="names"><h3 class = "notes1">
+		
+		</h3></h2></div><!-- button  -->
+
+	<div class="col-3 Adoptions"><input id ="input0"  type="text" name=""><button onclick="myFunc0()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput2" type="text" placeholder="Add Notes" name=""><button id = "addNote2" onclick="addNote2()">Add Note</button><h2 id="names0"></h2><h3 class = "notes2"></h3></div><!-- button  -->
+
+	<div class="col-3 Adoptions"><input id="input1"  type="text" name=""><button onclick="myFunc1()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput3" type="text" placeholder="Add Notes" name=""><button id = "addNote3" onclick="addNote3()">Add Note</button><h2 id="names1"></h2><h3 class = "notes3"></h3></div><!-- button  -->
+
+	<div class="col-3 Adoptions"><input id="input2" type="text" name=""><button onclick="myFunc2()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput4" type="text" placeholder="Add Notes" name=""><button id = "addNote4" onclick="addNote4()">Add Note</button><h2 id="names2"></h2><h3 class = "notes4"></h3></div><!-- button  -->
+
+	<div class="col-3 Adoptions"><input id="input3" type="text" name=""><button onclick="myFunc3()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput5" type="text" placeholder="Add Notes" name=""><button id = "addNote5" onclick="addNote5()">Add Note</button><h2 id="names3"></h2><h3 class = "notes5"></h3></div><!-- button  -->
+
+	<div class="col-3 Adoptions"><input id="input4" type="text" name=""><button onclick="myFunc4()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput6" type="text" placeholder="Add Notes" name=""><button id = "addNote6" onclick="addNote6()">Add Note</button><h2 id="names4"></h2><h3 class = "notes6"></h3></div><!-- button  -->
+
+	<div class="col-3 Adoptions"><input id="input5" type="text" name=""><button onclick="myFunc5()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput7" type="text" placeholder="Add Notes" name=""><button id = "addNote7" onclick="addNote7()">Add Note</button><h2 id="names5"></h2><h3 class = "notes7"></h3></div><!-- button  -->
+
+	<div class="col-3 Adoptions"><input id="input6" type="text" name=""><button onclick="myFunc6()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput8" type="text" placeholder="Add Notes" name=""><button id = "addNote8" onclick="addNote8()">Add Note</button><h2 id="names6"></h2><h3 class = "notes8"></h3></div><!-- button  -->
+
+	
+<h3 id = "time">
+	PM
+		</h3>
+
+	<div class="container-fluid">
+	<div class = header2><h1>MORNING</h1></div>
+	<div class="row">
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><span class="adoptionsF">ADOPTIONS</span><input class ="noteInput9" type="text" placeholder="Add Notes" name=""><button id = "addNote9" onclick="addNote9">Add Note</button></div>
+	
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote10 onclick="addNote1"">Add Note</button><span class="adoptionsF">Dishes</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote11 onclick="addNote1"">Add Note</button><span class="adoptionsF">Cart & Crate Sanitation</span></div>
+
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote12 onclick="addNote1"">Add Note</button><span class="adoptionsF">2121</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote13 onclick="addNote1"">Add Note</button><span class="adoptionsF">Dishes</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote14 onclick="addNote1"">Add Note</button><span class="adoptionsF">Laundry</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote15 onclick="addNote1"">Add Note</button><span class="adoptionsF">ADOPTIONS</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote16 onclick="addNote1"">Add Note</button><span class="adoptionsF">ADOPTIONS</span></div>
+		
+			<div class="container-fluid">
+	<div class = header2><h1>MORNING</h1></div>
+	<div class="row">
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote17 onclick="addNote1"">Add Note</button><span class="adoptionsF">ADOPTIONS</span></div>
+	
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote18 onclick="addNote1"">Add Note</button><span class="adoptionsF">Dishes</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote19 onclick="addNote1"">Add Note</button><span class="adoptionsF">Cart & Crate Sanitation</span></div>
+
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote20 onclick="addNote2"">Add Note</button><span class="adoptionsF">2121</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote21 onclick="addNote2"">Add Note</button><span class="adoptionsF">Dishes</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote22 onclick="addNote2"">Add Note</button><span class="adoptionsF">Laundry</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote23 onclick="addNote2"">Add Note</button><span class="adoptionsF">ADOPTIONS</span></div>
+	<div class="col-3 Adoptions"><input id="input1" type="text" name=""><button onclick="myFunc()">Add User</button><input type="text" placeholder="Add Notes" name=""><button id = "addNote24 onclick="addNote2"">Add Note</button><span class="adoptionsF">ADOPTIONS</span></div>
+<div id = "birthdays"><h2 id=birthdays>
+	</h2>
+	
+</div>
+
+
+
+
+</div>
+</div>
+
+
+	</div>
+	</div>
+
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script type="text/javascript"src="emp.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+</html>
