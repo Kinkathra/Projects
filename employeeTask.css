@@ -1,0 +1,35 @@
+/*body {background-color:black;padding-left:1%;padding-right:1%;padding-top:1%;margin-left:1.5px; margin-right:1.5px; /*background-image:url("Untitled-1.png"); background-repeat: no-repeat;*/}
+.iDunno { display:table; float:left; border:solid purple;}
+.iDunno {display:table-cell;}
+.iDunno {display:block; font-weight:bolder;}
+#nolo {float :left;}
+.iDunno2 { display:table; float:left; border:solid purple;}
+.iDunno2 {display:table-cell;}
+.iDunno2 {display:block; font-weight:bolder;}
+.yolk{border-right:solid;}
+h2{color:purple;}
+#Location {float:right; border:solid purple;}
+#left {border:solid purple;}
+#right {border:solid purple; background-image:url("Untitled-1.png");background-size: cover; background-repeat:no-repeat;}
+/*#red {border:solid yellow;}
+*/
+#newEmployee {font-size: 90px; color:#ffbc05; float: right}
+#table1 {background-image:url("oby1.png");}
+#notesRedP{color:yellow; font-size:20px; font-weight:bold;}
+#red {background-image:url("Untitled-2 - Copy.png"); background-size: cover;background-repeat:no-repeat;}
+.timeDate {font-size: 50px; text-align:center; font-weight:bold;font-family:times;}
+.headDisc {font-size:30px;}
+.sideIndie { float:left; font-size:90px; }
+.sideIndie2 { float:left; font-size:90px; }
+#green {max-width:50%; color:green; font-weight:bold; border:solid green; text-align:center; background-image:url("untitled-3.png"); background-repeat:no-repeat; background-size: cover }
+#red {max-width:50%; color:red; font-weight:bold; border:solid red; /*text-align:center*/;}
+#blue {max-width:50%; color:blue;font-weight:bold; border:solid blue; text-align:center;background-image:url("Untitled-2.png"); background-size: cover}
+#pink {max-width:50%;float:left; color:pink; border:solid pink; text-align:center;background-image:url("Untitled-2.png");background-size: cover}
+#regText {color:black; text-align:center;}
+#cont {font-weight:bold;text-shadow:1px  2px; font-size:3em; border:solid pink; background-image:url("Untitled-2.png");background-size: cover}
+#adoptionsHolding{max-width:50%; color:red; font-weight:bold; border:solid red;/*text-align:center*/;}
+h6{display:none;}
+#notes{float:inherit;color:yellow; background-image:url("rbga.gif");}
+#second{float:right;}
+/*#firstRow{float:left;}
+#secondRow{float:right;}*/*/
